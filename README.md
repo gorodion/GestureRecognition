@@ -1,4 +1,4 @@
-# GestureRecognition
+# Gesture Recognition
 ## Task
 Дан огромный датасет с фотографиями, на которых люди показывают один из шести жестов, либо не показывают вовсе. Каждой фотографии присвоен класс. Необходимо обучить модель, определяющую, какой жест изображён на фотографии. Задача решалась в рамках соревнования [MachinesCanSee](https://boosters.pro/championship/machinescansee2021/overview) от [VisionLabs](https://visionlabs.ai/ru/) на платформе Boosters.Pro
 
