@@ -15,16 +15,21 @@
 ## Code
 Вы можете посмотреть весь код, перейдя на [Google Colab](https://colab.research.google.com/drive/1ADusHK40qO2Eha4O_xhcwPTV1aRQY5qP?usp=sharing)
 
-
-## Links
-[Описание задачи с данными](https://boosters.pro/championship/machinescansee2021/overview)
-[Данные & Модели](https://drive.google.com/drive/folders/18Qh5VPKK5c0XpJO742aK3mPwJbHK4aGB?usp=sharing)
-[Модель детектора кистей](https://drive.google.com/file/d/1-CELzTRZObz9dGD28pB0xqeKrUKTtJc5/view?usp=sharing) (YOLOv5)
-[Модель классификатора](https://drive.google.com/file/d/1aY4NxgXx8hY4NI8u-0Slj_d7z8qiRH2S/view?usp=sharing) (для импорта нужен модуль [timm](https://github.com/rwightman/pytorch-image-models.git))
-[Ещё раз ссылка на код](https://colab.research.google.com/drive/1ADusHK40qO2Eha4O_xhcwPTV1aRQY5qP?usp=sharing)
-[First hand dataset source](https://www.robots.ox.ac.uk/~vgg/data/hands/)
-[Second hand dataset source](https://www3.cs.stonybrook.edu/~cvl/projects/hand_det_attention/)
-
 ## Unimplemented
 * Дообучение детектора кистей на датасете жестов. Для этого мы получаем координаты кистей от предобученного детектора для наших данных с жестами, после чего уточняем их вручную.
 * Обучение классификатора на всем массиве данных с жестами. К сожалению, не хватило времени, хотя размер тренировочных данных сильно влиял на обученность модели (обучение было произведено на половине данных)
+
+## Links
+* [Описание задачи с данными](https://boosters.pro/championship/machinescansee2021/overview)
+* [Данные & Модели](https://drive.google.com/drive/folders/18Qh5VPKK5c0XpJO742aK3mPwJbHK4aGB?usp=sharing)
+* [Модель детектора кистей](https://drive.google.com/file/d/1-CELzTRZObz9dGD28pB0xqeKrUKTtJc5/view?usp=sharing) (YOLOv5)
+* [Модель классификатора](https://drive.google.com/file/d/1aY4NxgXx8hY4NI8u-0Slj_d7z8qiRH2S/view?usp=sharing) (для импорта нужен модуль [timm](https://github.com/rwightman/pytorch-image-models.git))
+* [Ещё раз ссылка на код](https://colab.research.google.com/drive/1ADusHK40qO2Eha4O_xhcwPTV1aRQY5qP?usp=sharing)
+* [First hand dataset source](https://www.robots.ox.ac.uk/~vgg/data/hands/)
+* [Second hand dataset source](https://www3.cs.stonybrook.edu/~cvl/projects/hand_det_attention/)
+
+## Environment
+OS: Linux-5.4.104+-x86_64-with-Ubuntu-18.04-bionic
+
+Python: 3.7.11 (default, Jul  3 2021, 18:01:19) 
+[GCC 7.5.0]
