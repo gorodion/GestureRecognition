@@ -12,7 +12,8 @@
   3. **Обучение классификатора жестов.** На вход классификатору подаётся верхний бокс с кистью, классификатор обучается на метках жестов. В качестве модели была взята EfficientNetV2-M
 3. **End-to-end Inference.** Здесь мы делаем функцию инференса обеих моделей. То есть на вход функции подаётся фотография, а на выходе выдаётся наиболее вероятный жест, который был детектирован на этой фотографии (или "no gesture"). Важный момент: мы берём все боксы с кистями на фотографии, после чего пропускаем их через классификатор и берём класс с максимальной вероятностью среди всех боксов.
 Вы можете посмотреть весь код, перейдя на [google colab](https://colab.research.google.com/drive/1ADusHK40qO2Eha4O_xhcwPTV1aRQY5qP?usp=sharing)
-<img src="https://colab.research.google.com/drive/1ADusHK40qO2Eha4O_xhcwPTV1aRQY5qP?usp=sharing" alt="Open In Colab" data-canonical-src="https://colab.research.google.com/assets/colab-badge.svg">
+<img alt="Open In Colab" data-canonical-src="https://colab.research.google.com/assets/colab-badge.svg">
+
 
 ## Links
 [Описание задачи с данными](https://boosters.pro/championship/machinescansee2021/overview)
