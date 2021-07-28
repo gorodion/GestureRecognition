@@ -23,8 +23,7 @@
 * [Описание задачи с данными](https://boosters.pro/championship/machinescansee2021/overview)
 * [Данные & Модели](https://drive.google.com/drive/folders/18Qh5VPKK5c0XpJO742aK3mPwJbHK4aGB?usp=sharing)
 * [Модель детектора кистей](https://drive.google.com/file/d/1-CELzTRZObz9dGD28pB0xqeKrUKTtJc5/view?usp=sharing) (YOLOv5)
-* [Модель классификатора](https://drive.google.com/file/d/1aY4NxgXx8hY4NI8u-0Slj_d7z8qiRH2S/view?usp=sharing) (для импорта нужен модуль [timm](https://github.com/rwightman/pytorch-image-models.git))
-* [Ещё раз ссылка на код](https://colab.research.google.com/drive/1ADusHK40qO2Eha4O_xhcwPTV1aRQY5qP?usp=sharing)
+* [Модель классификатора](https://drive.google.com/file/d/1aY4NxgXx8hY4NI8u-0Slj_d7z8qiRH2S/view?usp=sharing) (для импорта нужен модуль [timm](https://github.com/rwightman/pytorch-image-models/tree/master/timm))
 * [First hand dataset source](https://www.robots.ox.ac.uk/~vgg/data/hands/)
 * [Second hand dataset source](https://www3.cs.stonybrook.edu/~cvl/projects/hand_det_attention/)
 
